@@ -1,0 +1,998 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.top-bar {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.contact-info  {
+    margin-right: 20px;
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    z-index: 3;
+    top: 0px;
+   
+}
+
+.navbar .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-menu li a:hover {
+    color: #ff6600;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+}
+
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cta-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.cta-button:hover {
+    background-color: #ff6600;
+}
+
+.top1{
+
+    width: 100%;
+    height:700px;
+    background-image: url("https://thrisha1.github.io/property-selling/assets/images/banner-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.x3{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.top2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255,255,255);
+    margin-right :230px;
+    font-weight: bold;
+    font-size: small;
+    color: orangered;
+}
+.t2{
+    display: flex;
+    color:rgb(255,255,255);
+    justify-content: right;
+    align-items: right;
+    font-size: 400%;
+}
+
+
+.x5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.mid1{
+ width: 300px;
+ height: 450px;
+ background-color: white;
+ background-image: url(https://thrisha1.github.io/property-selling/assets/images/featured.jpg);
+ display:flex ;
+ position: relative;
+ margin-top: 200px;
+ 
+}
+.mid{
+   width: 100%;
+   height: 900px;
+   background-color: rgb(255,255,255);
+   display: flex;
+   gap: 20px;
+}
+
+.mid2{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://tisachouston.com/wp-content/uploads/2023/03/sponsor.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 1429px;
+    left: -33px;
+  
+}
+.x5{
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: first baseline;
+}
+.middle{
+    width: 40%;
+    height: 450px;
+    background-color: rgb(255,255,255);
+    margin-top: 200px;
+ 
+}
+.t3{
+    color: rgb(238,74,74);
+}
+
+.t4{
+    height: 100%;
+    font-size: 300%;
+}
+
+.q1{
+
+    width: 400px;
+    height: 40px;
+    background-color: rgb(243,243,243);
+    border-bottom:solid 1px grey;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+}
+.t5{
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+.t5:hover{
+    color: orangered;
+}
+.mida{
+    display: flex;
+    flex-direction: column;
+    gap:85px;
+}
+.x6{
+    /* width:30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.midright{
+
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height: 600px;
+    background-color: rgb(255,255,255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.m1{
+    width: 240px;
+    height:150px;
+    background-color: rgb(255,255,255);
+    border-bottom: solid 1px grey;
+    display: flex;
+}
+.t6{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.midr1{
+    width:45px;
+    height: 45px;
+    background-image: url(https://thrisha1.github.io/property-selling/assets/images/info-icon-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50px;
+    margin-left:20px;
+
+
+}
+.t7{
+    padding-top: 5px;
+    padding-left: 38px;
+    font-size: small;
+    color: rgb(214,213,212);
+    font-size: medium;
+}
+.midr3{
+    width:45px;
+    height: 45px;
+    background-image: url(https://thrisha1.github.io/property-selling/assets/images/info-icon-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50px;
+    margin-left:20px;
+
+
+}
+.midr4{
+    width:45px;
+    height: 45px;
+    background-image: url(https://thrisha1.github.io/property-selling/assets/images/info-icon-03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50px;
+    margin-left:20px;
+
+
+}.midr5{
+    width:45px;
+    height: 45px;
+    background-image: url(https://thrisha1.github.io/property-selling/assets/images/info-icon-04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50px;
+    margin-left:20px;
+
+
+}
+.midbottom{
+    height: 1000px;
+}
+.midimg{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url(https://thrisha1.github.io/property-selling/assets/images/banner-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: 2;
+    
+    
+    
+}
+
+.t8{
+  position: absolute;
+  top: 1784px;
+  left: 620px;
+  color: rgb(223, 52, 52);
+}
+.t9{
+  position: absolute;
+  top: 1842px;
+  left:500px;
+  color: white;
+  text-align: center;
+  font-size: 300%;
+
+}
+.midimg2{
+    width: 900px;
+    height: 400px;
+    background-image: url(https://cdn.thedecorjournalindia.com/wp-content/uploads/2024/01/Nivasa-1-1170x730.jpg?strip=all&lossy=1&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position:absolute;
+    top: 2200px;
+    left: 220px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    width: 100%;
+    height: 350px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 240px;
+    height: 120px;
+    background-color: rgb(250, 216, 173);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.t10 {
+    font-size: 300%;
+    color: orangered;
+    margin: 0;
+}
+
+.t11 {
+    font-family: fantasy;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: orangered;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    right: -19px;
+}
+.bottom1{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(241, 243, 228);
+    display: flex;
+}
+.bot1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   width:50%;
+}
+.h1{
+    color: rgb(221, 74, 74);
+    padding-right: 230px;
+}
+.h2{
+    
+    font-size: 300%;
+
+}
+.bot2{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+}
+.b1{
+    padding: 10px;
+    color: #fafafa;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    border: none;
+    letter-spacing: 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.b1:hover{
+    background-color: orangered;
+}
+.bottom2{
+    width: 100%;
+    height: 700px;
+    background-color:rgb(241, 243, 228);
+    display: flex;
+    gap: 20px;
+}
+.b2{
+    width: 25%;
+    height: 400px;
+    background-color: rgb(241, 243, 228);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.b3{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(241, 243, 228);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid 1px rgb(221, 221, 218);
+}
+.t17{
+    color: grey;
+    font-size: medium;
+}
+.b4{
+    width: 40%;
+    height: 380px;
+    
+    background-image: url(https://thrisha1.github.io/property-selling/assets/images/deal-01.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.b5{
+    width: 35%;
+    height: 380px;
+
+}
+.para{
+    font-weight: normal;
+    color: grey;
+    font-stretch: expanded;
+    font-size: 120%;
+}
+.thala{
+    padding-bottom: 10px;
+    width: 100%;
+    height: 50px;
+}
+.bottom3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    
+}
+.b6{
+   color: rgb(221, 74, 74); 
+   padding-bottom: 20px;
+}
+
+.t18{
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.bottom4{
+    width: 90%;
+    height: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 20px;
+}
+.box4{
+    width: 350px;
+    height: 600px;
+    background-color:rgb(236, 236, 236);
+    border-radius: 10px;
+    display: flex;
+   padding: 10px;
+    
+}
+.b9{
+    width: 350px;
+    height: 250px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+     */
+    
+}
+.b8{
+
+    width: 320px;
+    height: 200px;
+    background-image: url(https://thrisha1.github.io/property-selling/assets/images/property-01.jpg);
+    border-radius: 10px;
+    
+}
+.bottom4-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b10{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.t19{
+    background-color: #e9d1c0;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.t20{
+  font-size: 150%;
+  /* margin-right: 10px; */
+  color: orangered;
+  font-weight: bold;
+}
+.t21{
+   padding-top: 10px;
+}
+.t22{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 80px;
+    
+}
+.t23{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    height: 100px;
+    
+}
+.b11{
+    width: 100%;
+    height: 150px;
+   border-top: #3333337e solid;
+   border-width: medium;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+.b12{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.bottomlast{
+    width: 100%;
+    height: 950px;
+}
+.botlast{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/023/308/330/small_2x/ai-generative-exterior-of-modern-luxury-house-with-garden-and-beautiful-sky-photo.jpg);
+    filter: blur(5px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+    
+    
+
+}
+.t25{
+    position: absolute;
+    left: 600px;
+    top: 6300px;
+    z-index: 2;
+    color:orangered;
+    
+}
+.t26{
+    position: absolute;
+    left: 450px;
+    top: 6350px;
+    z-index: 2;
+    text-align: center;
+    font-size: 300%;
+    color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.map{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://developers.google.com/static/maps/images/landing/hero_geocoding_api.png);
+    border-radius: 10px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 100px;
+    top: 6600px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 950px;
+    top: 6600px;
+}
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px;
+}
+.contact-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+.contact-form label {
+    display: block;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+.contact-form button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-form button:hover {
+    background-color: #218838;
+}
+.phone{
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    position: absolute;
+    left: 200px;
+    top: 7050px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+   
+   
+  
+}
+.phoneicon{
+    background-image: url(https://c8.alamy.com/comp/RNJBHT/phone-with-waves-symbol-icon-orange-simple-outline-isolated-vector-illustration-RNJBHT.jpg);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+     background-size: cover;
+}
+.email{
+    width: 250px;
+    height: 100px;
+   border-radius: 20px;
+    position: absolute;
+    left: 500px;
+    top: 7050px; 
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: row;
+    
+}
+.emailicon{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ZyFGOUlTU1sXtcylVri4Sw4ZonX5Er2wIQ&s);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+
+}
+.emdeets{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.em{
+    color: #ccc;
+}
+.phn{
+    color: #ccc;
+}
+.phndeets{
+    padding-left: 20px;
+}
+.ham{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    
+    .top-bar{
+        display: none;
+    }
+    .ham{
+        display: block;
+        width: 10px;
+        height: 10px;
+
+    }
+    .nav-menu{
+        display: none;
+    }
+    .cta{
+        display: none;
+    }
+    .top2{
+        position: absolute;
+        left: 40px;
+        top: 150px;
+    }
+    .t2{ 
+        position: relative;
+        left: 50px;
+        
+
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+    
+    }
+   
+    .mid1{
+        height: 500px;
+        width: 316px;
+        background-image: cover;
+        background-repeat: no-repeat;
+        
+        margin-top: 50px;
+       
+       
+    }
+    .mid2{
+        position: absolute;
+        top: 1230px;
+    }
+  .t3{
+    position: absolute;
+    top: 1350px;
+    
+
+  }
+  .t4{
+    position: absolute;
+    top:1400px;
+    padding-bottom: 150px;
+ }
+.mida{
+    display: flex;
+    flex-direction: column;
+}
+.x6{
+    position: absolute;
+    top:1700px;
+
+   
+}
+
+.midimg{
+ position: absolute;
+ top: 2400px;
+ left:0px;
+
+
+
+}
+.t8{
+    position: absolute;
+    top: 2500px;
+    left: 150px;
+    z-index: 3;
+   
+    
+}
+.t9{
+    position:absolute;
+    top: 2550px;
+    left:10px ;
+    z-index: 3;
+}
+.midimg2{
+    position: absolute;
+    top:2300px;
+    left: 0px;
+    display: none;
+    
+}
+
+
+.boxes{
+    position: absolute;
+    top: 3100px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bot2{
+    position: absolute;
+    top: 3800px;
+    left: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+.bot1{
+    position: absolute;
+    top:3400px;
+    left: 70px;
+    width: 90%;
+
+}
+
+.h1{
+    position: absolute;
+    top: 200px;
+    left: 160px;
+}
+
+.bottom2{
+    position: absolute;
+    top: 4000px;
+    display: flex;
+    width: 100%;
+    height: 1295px;
+    flex-direction: column;
+}
+.b2{
+    position: relative;
+    left: 200px;
+
+    
+}
+.b5{
+    width: 100%;
+   
+    
+}
+.b4{
+    width: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.thala{
+    position: relative;
+    padding-left: 100px;
+    
+}
+.bottom3{
+    position: absolute;
+    top: 5500px;
+    left: 10px;
+   
+}
+.bottom4{
+    position: absolute;
+    top: 6000px;
+  
+}
+.bottomlast
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+.para{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.com-box{
+    display: none;
+}
+.botlast{
+    
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 9750px;
+}
+.t25{
+    position: absolute;
+    top: 9800px;
+    left: 150px;
+}
+.t26{
+    position: absolute;
+    top:9840px;
+    left: 20px;
+   
+
+}
+.map{
+    position: absolute;
+    top: 10000px;
+    left: 50px;
+    width: 80%;
+}
+.contact-form{
+    position: absolute;
+    top: 10450px;
+    left: 10px;
+
+}
+  
+   
+  }
