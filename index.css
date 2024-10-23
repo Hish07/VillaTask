@@ -1021,3 +1021,110 @@
   
    
   }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .contact-form{
+
+        position: absolute;
+        top: 7200px;
+        left: 220px;
+    }
+    
+    .midimg2{
+        position: absolute;
+        top: 2100px;
+        left: 60px;
+    }
+    .midright{
+        width: 300px;
+    }
+    .t26{
+        left: 250px;
+    }
+    .t25{
+
+        left: 450px;
+    }
+    .map{
+        left: 210px;
+    }
+
+
+
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 768px){
+
+    .bottom2{
+        height: 780px;
+    }
+    .midimg2{
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        left: 150px;
+        top: 2200px;
+    }
+    .t9{
+        left: 200px;
+    }
+    .t8{
+        left: 340px;
+    }
+    .midright{
+        width: 250px;
+       
+    }
+    .mid1{
+        width: 200px;
+        margin-left: 10px;
+    }
+    .q1{
+        width: 250px;
+    }
+    .botlast{
+        top: 3500px;
+      
+    }
+    .bottomlast{
+        position:absolute;
+        top: 5050px;
+    }
+    .phone{
+       position: absolute;
+       top: 10300px;
+       left: 460px;
+       
+    }
+    
+    .email{
+       position: absolute;
+       top: 10300px;
+       left: 100px;
+     
+    }
+
+    .t25{
+        position: absolute;
+        top: 3600px;
+        left: 350px;
+    }
+    .t26{
+        position: absolute;
+        top: 3700px;
+        left: 150px;
+    }
+    .map{
+        position: absolute;
+        top: 3900px;
+        left: 100px;
+
+    }
+    .contact-form{
+        position: absolute;
+        top: 4500px;
+        left: 150px;
+
+    }
+
+  }
